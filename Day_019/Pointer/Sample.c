@@ -31,7 +31,7 @@ int main(int argc, char *argv[])	// Sample 10000 500 : // Command Ling ¸í·É¾î
 
 	*(double *)p = d;
 
-	printf("c=	%8c		[0x%08x]\n",c, &c);
+	//printf("c=	%8c		[0x%08x]\n",c, &c);
 	printf("i =	%8d		[0x%08x]\n", i, &i);
 	printf("a =	%8f		[0x%08x]\n", a, &a);
 	printf("d =	%8lf	[0x%08x]\n", d, &d);
