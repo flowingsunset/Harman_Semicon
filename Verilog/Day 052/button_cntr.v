@@ -57,3 +57,15 @@ module edge_detector_p(
     
 
 endmodule
+
+module T_flip_flop_p(        //clock?? rising edge???? ????
+    input clk,t, reset_p,
+    output reg q
+    );
+    
+    always@(posedge clk)begin
+    if(reset_p) q=0;
+    else if(t) q=~q;
+    end
+    
+endmodule
