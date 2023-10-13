@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "CLCD_8bit", "CLCD_8bit\CLCD_8bit.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "CLCD_4bit", "CLCD_4bit\CLCD_4bit.cproj", "{8C194AA3-7EC7-437C-B6AB-D4D424D32AA5}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "I2C_comm", "I2C_comm\I2C_comm.cproj", "{7ED4CC22-55D1-42E6-85C0-C1691CDE58E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{8C194AA3-7EC7-437C-B6AB-D4D424D32AA5}.Debug|AVR.ActiveCfg = Debug|AVR
+		{8C194AA3-7EC7-437C-B6AB-D4D424D32AA5}.Debug|AVR.Build.0 = Debug|AVR
+		{8C194AA3-7EC7-437C-B6AB-D4D424D32AA5}.Release|AVR.ActiveCfg = Release|AVR
+		{8C194AA3-7EC7-437C-B6AB-D4D424D32AA5}.Release|AVR.Build.0 = Release|AVR
+		{7ED4CC22-55D1-42E6-85C0-C1691CDE58E4}.Debug|AVR.ActiveCfg = Debug|AVR
+		{7ED4CC22-55D1-42E6-85C0-C1691CDE58E4}.Debug|AVR.Build.0 = Debug|AVR
+		{7ED4CC22-55D1-42E6-85C0-C1691CDE58E4}.Release|AVR.ActiveCfg = Release|AVR
+		{7ED4CC22-55D1-42E6-85C0-C1691CDE58E4}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
