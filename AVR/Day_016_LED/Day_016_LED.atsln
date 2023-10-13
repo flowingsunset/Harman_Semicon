@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Day_016_LED", "Day_016_LED\Day_016_LED.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Day_016_LED_Array", "Day_016_LED_Array\Day_016_LED_Array.cproj", "{91A06C44-086E-4DC0-89F4-77F2E1DA835B}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Day_016_LED_Structure", "Day_016_LED_Structure\Day_016_LED_Structure.cproj", "{C968AFD7-F25D-4712-9D24-9CC58F7617BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{91A06C44-086E-4DC0-89F4-77F2E1DA835B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{91A06C44-086E-4DC0-89F4-77F2E1DA835B}.Debug|AVR.Build.0 = Debug|AVR
+		{91A06C44-086E-4DC0-89F4-77F2E1DA835B}.Release|AVR.ActiveCfg = Release|AVR
+		{91A06C44-086E-4DC0-89F4-77F2E1DA835B}.Release|AVR.Build.0 = Release|AVR
+		{C968AFD7-F25D-4712-9D24-9CC58F7617BB}.Debug|AVR.ActiveCfg = Debug|AVR
+		{C968AFD7-F25D-4712-9D24-9CC58F7617BB}.Debug|AVR.Build.0 = Debug|AVR
+		{C968AFD7-F25D-4712-9D24-9CC58F7617BB}.Release|AVR.ActiveCfg = Release|AVR
+		{C968AFD7-F25D-4712-9D24-9CC58F7617BB}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
